@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Appodoom</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Appodoom</h1>
+    <h3>An <span class="highlight">Ai</span>rtist Initiative</h3>
+    <hr/>
+    <p class="instructions">Upload your <strong>.wav</strong> derbouka file:</p>
+    <input type="file" id="wavInput" />
+    <div class="buttons">
+      <button id="uploadBtn">Upload</button>
+      <button id="downloadBtn" disabled style="display: none;">Download when ready</button>
+    </div>
+    <p id="status" class="status"></p>
+    <p id="error" class="error"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
