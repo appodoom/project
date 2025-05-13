@@ -1,0 +1,9 @@
+watchdog
+numpy
+librosa
+pickle
+torch
+flask
+flask_cors
+uuid
+soundfile
