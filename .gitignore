@@ -1,2 +1,4 @@
 *.venv/
 .vscode/
+*.wav
+*__pycache__*
